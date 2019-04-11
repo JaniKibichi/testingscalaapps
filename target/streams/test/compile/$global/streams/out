@@ -1,7 +1,70 @@
-[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumTest.scala:4:8: object ShouldMatchers is not a member of package org.scalatest.matchers[0m
-[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.matchers.ShouldMatchers[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumTest.scala:6:38: not found: type ShouldMatchers[0m
-[0m[[0m[31merror[0m] [0m[0mclass AlbumTest extends FunSpec with ShouldMatchers{[0m
-[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumFeatureSpec.scala:10:34: too many arguments for constructor Band: (name: String, members: List[com.janikibichi.testingscala.Artist])com.janikibichi.testingscala.Band[0m
+[0m[[0m[31merror[0m] [0m[0m      val depecheModeCirca1990 = new Band("Depeche Mode",new Artist("Dave","Gahan"),new Artist("Martin","Gore"),new Artist("Andrew","Fletcher"),new Artist("Alan","Wilder"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumFeatureSpec.scala:12:30: too many arguments for constructor Album: (title: String, year: Int, acts: List[com.janikibichi.testingscala.Act])com.janikibichi.testingscala.Album[0m
+[0m[[0m[31merror[0m] [0m[0m      val blackCelebration = new Album("Black Celebration",1990,List(new Track("Black Celebration"),new Track("Fly on the Windscreen"),new Track("A Question of Lust")),depecheModeCirca1990:_*)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumFeatureSpec.scala:14:7: not found: value album[0m
+[0m[[0m[31merror[0m] [0m[0m      album.tracks should have size(3)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumSpec.scala:6:52: not found: type GivenWhenThen[0m
+[0m[[0m[31merror[0m] [0m[0mclass AlbumSpec extends FunSpec with Matchers with GivenWhenThen{[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumSpec.scala:9:7: not found: value given[0m
+[0m[[0m[31merror[0m] [0m[0m      given("The album Thriller by Michael Jackson")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumSpec.scala:10:45: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : com.janikibichi.testingscala.Artist[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[com.janikibichi.testingscala.Act][0m
+[0m[[0m[31merror[0m] [0m[0m      val album = new Album("Thriller",1981,new Artist("Michael","Jackson"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumSpec.scala:12:7: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m      when("the album\'s artist is obtained")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumSpec.scala:13:26: value artist is not a member of com.janikibichi.testingscala.Album[0m
+[0m[[0m[31merror[0m] [0m[0m      val artist = album.artist[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumSpec.scala:15:7: not found: value then[0m
+[0m[[0m[31merror[0m] [0m[0m      then("the artist obitained should be an instance of Artist")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumSpec.scala:18:7: not found: value and[0m
+[0m[[0m[31merror[0m] [0m[0m      and("the artists first name and last name should be Michael Jackson")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumSpecAll.scala:6:55: not found: type GivenWhenThen[0m
+[0m[[0m[31merror[0m] [0m[0mclass AlbumSpecAll extends FunSpec with Matchers with GivenWhenThen{[0m
+[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumSpecAll.scala:8:62: not found: value Tag[0m
+[0m[[0m[31merror[0m] [0m[0m    it("can add an Artist to the album at construction time",Tag("construction")){[0m
+[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumSpecAll.scala:9:7: not found: value given[0m
+[0m[[0m[31merror[0m] [0m[0m      given("The album Thriller by Michael Jackson")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumSpecAll.scala:10:45: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : com.janikibichi.testingscala.Artist[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[com.janikibichi.testingscala.Act][0m
+[0m[[0m[31merror[0m] [0m[0m      val album = new Album("thriller",1981,new Artist("Michael","Jackson"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumSpecAll.scala:12:7: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m      when("the artist of the album is obtained")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumSpecAll.scala:13:26: value artist is not a member of com.janikibichi.testingscala.Album[0m
+[0m[[0m[31merror[0m] [0m[0m      val artist = album.artist[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumSpecAll.scala:15:7: not found: value then[0m
+[0m[[0m[31merror[0m] [0m[0m      then("the artist should be an instance of Artist")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumSpecAll.scala:18:7: not found: value and[0m
+[0m[[0m[31merror[0m] [0m[0m      and("the artist's first name and last name should be Michael Jackson")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumTest.scala:9:46: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : com.janikibichi.testingscala.Artist[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[com.janikibichi.testingscala.Act][0m
+[0m[[0m[31merror[0m] [0m[0m      val album = new Album("Thriller",1981, new Artist("Michael","Jackson"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumTest.scala:10:13: value artist is not a member of com.janikibichi.testingscala.Album[0m
+[0m[[0m[31merror[0m] [0m[0m      album.artist.firstName should be ("Michael")[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/test/scala/com/janikibichi/testingscala/AlbumWordSpec.scala:10:43: too many arguments for constructor Band: (name: String, members: List[com.janikibichi.testingscala.Artist])com.janikibichi.testingscala.Band[0m
+[0m[[0m[31merror[0m] [0m[0m        new Album("Hotel California",1977,new Band("The Eagles",new Artist("Don","Henley"),new Artist("Glenn","Frey"),new Artist("Joe","Walsh"),new Artist("Randy","Meisner"),new Artist("Don","Felder")))[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m21 errors found[0m

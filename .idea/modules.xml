@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Testing Scala.iml" filepath="$PROJECT_DIR$/.idea/modules/Testing Scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Testing Scala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Testing Scala-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/testingscala.iml" filepath="$PROJECT_DIR$/.idea/testingscala.iml" />
     </modules>
   </component>

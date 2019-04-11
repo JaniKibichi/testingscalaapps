@@ -1,8 +1,7 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/Album.scala:1:1: [0m
-[0m[[0m[33mwarn[0m] [0m[0mFound names but no class, trait or object is defined in the compilation unit.[0m
-[0m[[0m[33mwarn[0m] [0m[0mThe incremental compiler cannot record the dependency information in such case.[0m
-[0m[[0m[33mwarn[0m] [0m[0mSome errors like unused import referring to a non-existent class might not be reported.[0m
-[0m[[0m[33mwarn[0m] [0m[0m    [0m
-[0m[[0m[33mwarn[0m] [0m[0mpackage com.janikibichi.testingscala[0m
-[0m[[0m[33mwarn[0m] [0m[0m^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/Album.scala:6:41: not found: type Acts[0m
+[0m[[0m[31merror[0m] [0m[0m  def this(title:String, year:Int, acts:Acts*) = this(title,year,None,acts:_*)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/Track.scala:9:22: not found: type PeriodFormatterBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m    val format = new PeriodFormatterBuilder()[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
