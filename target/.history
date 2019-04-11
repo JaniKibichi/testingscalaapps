@@ -1,0 +1,18 @@
+scala-version
+scala -version
+scala
+--version
+\q
+:exit
+:quit
+reload
+update
+reload
+update
+~test
+reload
+update
+~test
+import org.scalatest
+console
+~test
