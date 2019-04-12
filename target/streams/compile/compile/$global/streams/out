@@ -1,7 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/Album.scala:6:41: not found: type Acts[0m
-[0m[[0m[31merror[0m] [0m[0m  def this(title:String, year:Int, acts:Acts*) = this(title,year,None,acts:_*)[0m
-[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/Track.scala:9:22: not found: type PeriodFormatterBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/Track.scala:3:12: object joda is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.joda.time.format.PeriodFormatterBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/Track.scala:11:22: not found: type PeriodFormatterBuilder[0m
 [0m[[0m[31merror[0m] [0m[0m    val format = new PeriodFormatterBuilder()[0m
 [0m[[0m[31merror[0m] [0m[0m                     ^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

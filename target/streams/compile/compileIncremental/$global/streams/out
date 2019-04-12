@@ -1,23 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating /home/grahamingokho/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.10.jar: could not find class org.joda.time.format.PeriodFormatterBuilder on the classpath.[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/AlbumSpec.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/JukeBox.scala, /home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/Track.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/Album.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(com.janikibichi.testingscala.Album)[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(/home/grahamingokho/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.10.jar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(/home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/Track.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(com.janikibichi.testingscala.Album)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/JukeBox.scala, /home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/Track.scala, /home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/Album.scala)[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 3 Scala sources to /home/grahamingokho/code/testingscala/target/scala-2.11/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/grahamingokho/code/testingscala/src/main/scala/com/janikibichi/testingscala/Track.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/grahamingokho/code/testingscala/target/scala-2.11/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.11:1.2.5:compile for Scala 2.11.8[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.11:1.2.5:compile for Scala 2.11.8[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3b34fa24 for Scala compiler version 2.11.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 2217f55e for Scala compiler version 2.11.8[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/grahamingokho/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m

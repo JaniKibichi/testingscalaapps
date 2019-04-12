@@ -16,3 +16,13 @@ update
 import org.scalatest
 console
 ~test
+console
+:quit
+:exit
+exit:
+exit
+reload
+update
+clear
+console
+exit
