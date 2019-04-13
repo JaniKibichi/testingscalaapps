@@ -4,7 +4,7 @@
 		module="testing-scala_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20190412081655"
+		publication="20190413181057"
 	>
 		<description>
 		Testing Scala
@@ -32,6 +32,30 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.6" conf="test->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.6" conf="test->default(compile)">
+			<artifact name="scalatest_2.11" type="doc" ext="jar" conf="*" e:classifier="javadoc"/>
+			<artifact name="scalatest_2.11" type="src" ext="jar" conf="*" e:classifier="sources"/>
+			<artifact name="scalatest_2.11" type="jar" ext="jar" conf="*"/>
+		</dependency>
+		<dependency org="joda-time" name="joda-time" rev="2.10" conf="compile->default(compile)">
+			<artifact name="joda-time" type="doc" ext="jar" conf="*" e:classifier="javadoc"/>
+			<artifact name="joda-time" type="src" ext="jar" conf="*" e:classifier="sources"/>
+			<artifact name="joda-time" type="jar" ext="jar" conf="*"/>
+		</dependency>
+		<dependency org="junit" name="junit" rev="4.10" conf="compile->default(compile)">
+			<artifact name="junit" type="doc" ext="jar" conf="*" e:classifier="javadoc"/>
+			<artifact name="junit" type="src" ext="jar" conf="*" e:classifier="sources"/>
+			<artifact name="junit" type="jar" ext="jar" conf="*"/>
+		</dependency>
+		<dependency org="org.joda" name="joda-convert" rev="2.2.0" conf="compile->default(compile)">
+			<artifact name="joda-convert" type="doc" ext="jar" conf="*" e:classifier="javadoc"/>
+			<artifact name="joda-convert" type="src" ext="jar" conf="*" e:classifier="sources"/>
+			<artifact name="joda-convert" type="jar" ext="jar" conf="*"/>
+		</dependency>
+		<dependency org="org.testng" name="testng" rev="6.1.1" conf="test->default(compile)">
+			<artifact name="testng" type="doc" ext="jar" conf="*" e:classifier="javadoc"/>
+			<artifact name="testng" type="src" ext="jar" conf="*" e:classifier="sources"/>
+			<artifact name="testng" type="jar" ext="jar" conf="*"/>
+		</dependency>
 	</dependencies>
 </ivy-module>
